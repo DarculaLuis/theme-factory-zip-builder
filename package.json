@@ -1,0 +1,14 @@
+{
+  "name": "theme-factory-zip-builder",
+  "version": "1.0.0",
+  "description": "API to build WordPress theme ZIPs from GPT output",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
